@@ -8580,8 +8580,8 @@ h1, h2, h3, h4, h5,
 
 .owl-carousel {
   position: relative; }
-  .owl-carousel .owl-item {
-    opacity: .4; }
+  /*.owl-carousel .owl-item {
+    opacity: .4; }*/
     .owl-carousel .owl-item.active {
       opacity: 1; }
   .owl-carousel .owl-nav {
