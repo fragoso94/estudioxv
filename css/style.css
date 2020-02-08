@@ -4967,6 +4967,12 @@ a.close.disabled {
   padding: 0.5rem 0.75rem;
   color: #212529; }
 
+.sliderImage {
+  background: #0c5460;
+  width: 100%;
+  height: auto;
+}
+
 .carousel {
   position: relative; }
 
@@ -5093,8 +5099,8 @@ a.close.disabled {
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  width: 35px;
+  height: 35px;
   background: transparent no-repeat center center;
   background-size: 100% 100%; }
 
@@ -8207,8 +8213,9 @@ h1, h2, h3, h4, h5,
 
 .hero-wrap {
   width: 100%;
-  height: 850px;
+  height: 620px;
   position: inherit;
+  background-image: url('../imagen/fondoVideo.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center; }
@@ -8221,19 +8228,26 @@ h1, h2, h3, h4, h5,
     content: '';
     opacity: .4;
     background: #000000;
-    height: 850px; }
+    height: 620px; }
   @media (max-width: 991.98px) {
     .hero-wrap {
-      height: 1150px; }
-      .hero-wrap .overlay {
-        height: 1150px; } }
+      /*height: 1150px;*/
+      height: 700px;
+      background-image: url('../imagen/fondoVideoCorto.PNG');
+    }
+    .hero-wrap .overlay {
+        /*height: 1150px;*/
+        height: 700px;
+      }
+  }
   .hero-wrap.hero-wrap-2 {
     height: 700px !important;
     position: relative; }
     .hero-wrap.hero-wrap-2 .overlay {
       width: 100%;
       opacity: .05;
-      height: 700px; }
+      height: 700px;
+    }
     .hero-wrap.hero-wrap-2 .slider-text {
       height: 700px !important; }
 
@@ -9866,3 +9880,16 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+.homeImage {
+  background-image: url('../imagen/iconLogo/Logo_dorado.jpg');
+  background-size: contain;
+  margin-top: 15px;
+  box-shadow: 0.8px 0.8px 5px #000;
+}
+  @media (max-width: 768px) {
+    .homeImage{
+      margin-bottom: 15px;
+      height: 250px;
+    }
+  }
