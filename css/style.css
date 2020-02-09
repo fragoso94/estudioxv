@@ -9427,7 +9427,7 @@ textarea.form-control {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center; }
-
+}
 .testimony-section {
   position: relative; }
   .testimony-section .owl-carousel {
@@ -9611,16 +9611,20 @@ textarea.form-control {
   height: 270px; }
   .block-20.img {
     height: 500px; }
-
+@media (max-width: 700px) {
+  .block-20.img{
+    height: 250px;
+  }
+}
 .blog-entry {
   overflow: hidden;
   width: 100%; }
   @media (min-width: 768px) {
     .blog-entry {
-      margin-bottom: 30px; } }
+      margin-bottom: 20px; } }
   @media (max-width: 767.98px) {
     .blog-entry {
-      margin-bottom: 30px; } }
+      margin-bottom: 15px; } }
   .blog-entry .text {
     position: relative;
     width: 100%;
