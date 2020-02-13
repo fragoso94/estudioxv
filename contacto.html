@@ -99,18 +99,18 @@
                   <div class="row block-9 justify-content-center mb-5">
                       <div class="col-md-12 mb-md-5">
                           <h2 class="text-center"><br>Contáctanos</h2>
-                          <form action="#" class="bg-light p-5 contact-form">
+                          <form id="formContacto" action="#" class="bg-light p-5 contact-form">
                               <div class="form-group">
-                                  <input type="text" class="form-control" placeholder="Ingresa tu nombre" required>
+                                  <input id="nombre" type="text" class="form-control" placeholder="Ingresa tu nombre" required>
                               </div>
                               <div class="form-group">
-                                  <input type="text" class="form-control" placeholder="Ingresa tu correo" required>
+                                  <input id="correo" type="text" class="form-control" placeholder="Ingresa tu correo" required>
                               </div>
                               <div class="form-group">
-                                  <input type="text" class="form-control" placeholder="Consulta general" required>
+                                  <input id="asunto" type="text" class="form-control" placeholder="Consulta general" required>
                               </div>
                               <div class="form-group">
-                                  <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Mensaje" required></textarea>
+                                  <textarea id="mensaje" cols="30" rows="7" class="form-control" placeholder="Mensaje" required></textarea>
                               </div>
                               <div class="form-group">
                                   <input type="submit" value="Enviar mensaje" class="btn btn-primary py-3 px-5">
@@ -121,6 +121,7 @@
               </div>
           </div>
       </div>
+          <div id="cargaResponse" style="horiz-align: center"></div>
     </section>
 
     <footer class="ftco-footer ftco-bg-dark ftco-section">
@@ -204,6 +205,24 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
-    
+  <script>
+      $(document).on("submit","#formContacto",function(e){
+          e.preventDefault();//detenemos el envio
+          let data = {
+              "nombre": $('#nombre').val(),
+              "correo": $('#correo').val(),
+              "asunto": $('#asunto').val(),
+              "mensaje": $('#mensaje').val()
+          };
+          $.post( "correo.php", JSON.stringify(data))
+              .done( (response) => {
+                  $("#cargaResponse").html(response);
+              })
+          .fail( (response)=>{
+              $("#cargaResponse").html(response);
+          })
+          ;
+      })
+  </script>
   </body>
 </html>
