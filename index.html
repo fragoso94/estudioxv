@@ -19,6 +19,20 @@
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/mystyle.css">
+      <style>
+          .imageStyle {
+              height: 525px;
+          }
+              @media (max-width: 500px) {
+                  .imageStyle {
+                      height: 160px;
+                  }
+              }
+          }
+          .ajustarImg{
+              background-size: contain;
+          }
+      </style>
   </head>
   <body>
     
@@ -38,7 +52,7 @@
 <!--	          <li class="nav-item"><a href="pricing.html" class="nav-link">Pricing</a></li>-->
 <!--	          <li class="nav-item"><a href="car.html" class="nav-link">Our Car</a></li>-->
 <!--	          <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>-->
-	          <li class="nav-item"><a href="contacto.html" class="nav-link">Contacto</a></li>
+<!--	          <li class="nav-item"><a href="contacto.html" class="nav-link">Contacto</a></li>-->
 	        </ul>
 	      </div>
 	    </div>
@@ -48,11 +62,17 @@
     <div class="sliderImage">
         <div id="carouselExampleIndicators" class="carousel slide"><!--data-interval="3000"-->
             <div class="carousel-inner">
-                <div class="carousel-item active h-100">
+                <div class="carousel-item active">
                     <img class="d-block w-100" src="imagen/banner/banner.jpg" alt="First slide">
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" src="imagen/banner/banner2.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100 imageStyle ajustarImg" src="imagen/banner/banner3.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100 imageStyle ajustarImg" src="imagen/banner/banner4.jpg" alt="Second slide">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -102,6 +122,59 @@
       </div>
   </section>
 
+      <section class="ftco-section" style="margin-top: -100px">
+          <div class="container">
+              <div class="row justify-content-center mb-5">
+                  <div class="col-md-7 heading-section text-center ftco-animate">
+                      <span class="subheading">Congresos</span>
+                  </div>
+              </div>
+              <div class="row d-flex">
+                  <div class="col-md-4 d-flex ftco-animate">
+                      <div class="blog-entry justify-content-end">
+                          <a href="#" class="block-20 " style="background-image: url('imagen/congresos/congreso1.jpg');">
+                          </a>
+                          <div class="text pt-4">
+                              <div class="meta mb-3">
+                                  <div><a href="#">July. 24, 2019</a></div>
+                              </div>
+                              <h3 class="heading mt-2"><a href="#">Title 1</a></h3>
+                              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-4 d-flex ftco-animate">
+                      <div class="blog-entry justify-content-end">
+                          <a href="#" class="block-20" style="background-image: url('imagen/congresos/congreso2.jpg');">
+                          </a>
+                          <div class="text pt-4">
+                              <div class="meta mb-3">
+                                  <div><a href="#">July. 24, 2019</a></div>
+                                  <div><a href="#">Merida</a></div>
+                              </div>
+                              <h3 class="heading mt-2"><a href="#">Title 2</a></h3>
+                              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-4 d-flex ftco-animate">
+                      <div class="blog-entry">
+                          <a id="contenedor-imagen" href="#" class="block-20">
+                          </a>
+                          <div class="text pt-4">
+                              <div class="meta mb-3">
+                                  <div><a href="#">July. 24, 2019</a></div>
+                                  <div><a href="#">Monterrey</a></div>
+                              </div>
+                              <h3 class="heading mt-2"><a href="#">Title 3</a></h3>
+                              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
       <section class="ftco-section testimony-section" style="margin-top: -100px">
           <div class="container">
               <div class="row justify-content-center mb-5">
@@ -116,7 +189,9 @@
                           <div class="item">
                               <div class="testimony-wrap text-center py-4 pb-5">
                                   <div class="text pt-4" style="width: 80%; margin-left: 10%">
-                                      <p class="mb-4" style="font-size: 20px">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                      <p class="mb-4" style="font-size: 20px">
+                                          Me gusta Estudio XV porque no solo es una academia de baile, sino una gran familia.
+                                      </p>
                                   </div>
                               </div>
                           </div>
@@ -125,7 +200,9 @@
                           <div class="item">
                               <div class="testimony-wrap text-center py-4 pb-5">
                                   <div class="text pt-4"  style="width: 80%; margin-left: 10%">
-                                      <p class="mb-4" style="font-size: 20px">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                      <p class="mb-4" style="font-size: 20px">
+                                          Me gusta Estudio XV porque tiene diferentes estilos dancisticos y en cada uno un maestro especialista.
+                                      </p>
                                   </div>
                               </div>
                           </div>
@@ -134,7 +211,9 @@
                           <div class="item">
                               <div class="testimony-wrap text-center py-4 pb-5"  style="width: 80%; margin-left: 10%">
                                   <div class="text pt-4">
-                                      <p class="mb-4" style="font-size: 20px">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                      <p class="mb-4" style="font-size: 20px">
+                                          Me gusta Estudio XV porque me ofrece un espacio muy digno, grande y comodo, con lo indispensable para desarrollar mi talento.
+                                      </p>
                                   </div>
                               </div>
                           </div>
@@ -194,7 +273,7 @@
 
           <div class="row">
               <div class="col-md-12 text-center">
-                  Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos los derechos reservados <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://www.facebook.com/MentesIngeniosos" target="_blank">Mentes Ingeniosos</a>
+                  Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos los derechos reservados | Estudio Quince <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://www.facebook.com/MentesIngeniosos" target="_blank">Mentes Ingeniosos</a>
               </div>
           </div>
       </div>

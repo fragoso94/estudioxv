@@ -4994,6 +4994,7 @@ a.close.disabled {
   display: none;
   float: left;
   width: 100%;
+  height: auto;
   margin-right: -100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -8393,7 +8394,7 @@ h1, h2, h3, h4, h5,
   width: 100%;
   height: 620px;
   position: inherit;
-  background-image: url('../imagen/fondoVideo.png');
+  background-image: url('../imagen/fondo_video.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center; }
@@ -8411,7 +8412,7 @@ h1, h2, h3, h4, h5,
     .hero-wrap {
       /*height: 1150px;*/
       height: 700px;
-      background-image: url('../imagen/fondoVideoCorto.PNG');
+      background-image: url('../imagen/fondo_video_corto.png');
     }
     .hero-wrap .overlay {
         /*height: 1150px;*/
