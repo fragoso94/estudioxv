@@ -4968,9 +4968,14 @@ a.close.disabled {
   color: #212529; }
 
 .sliderImage {
-  background: #0c5460;
+  background: wheat;
   width: 100%;
-  height: auto;
+  height: 550px;
+}
+@media (max-width: 500px) {
+  .sliderImage {
+    height: 160px;
+  }
 }
 
 .carousel {
@@ -4994,7 +4999,7 @@ a.close.disabled {
   display: none;
   float: left;
   width: 100%;
-  height: auto;
+  /*height: auto;*/
   margin-right: -100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -5008,6 +5013,15 @@ a.close.disabled {
       -webkit-transition: none;
       -o-transition: none;
       transition: none; } }
+.carousel-item img {
+  height: 550px;
+  background-size: contain;
+}
+@media (max-width: 500px) {
+  .carousel-item img {
+    height: 160px;
+  }
+}
 
 .carousel-item.active,
 .carousel-item-next,
@@ -9517,7 +9531,8 @@ textarea.form-control {
     color: #fc983c; }
   .testimony-wrap .position {
     font-size: 16px;
-    color: #cccccc; }
+    color: #cccccc;
+  }
 
 @media (max-width: 767.98px) {
   .about-image {
