@@ -3751,7 +3751,7 @@ input[type="button"].btn-block {
 .navbar-dark .navbar-brand {
   color: #fff; }
   .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
-    color: #fff; }
+   /* color: #fff;*/ }
 
 .navbar-dark .navbar-nav .nav-link {
   color: rgba(255, 255, 255, 0.5); }
@@ -7812,7 +7812,6 @@ button.bg-dark:focus {
 
 .text-right {
   text-align: right !important; }
-
 .text-center {
   text-align: center !important; }
 
