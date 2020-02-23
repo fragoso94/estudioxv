@@ -93,3 +93,15 @@
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
+.desingBox{
+    width: 100%;
+    height: 100%;
+    border-color: #FF33EC;
+    border-style: solid;
+    opacity: 0.5;
+}
+.textoTitulo{
+    font-size: 25px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+}
