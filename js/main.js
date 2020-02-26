@@ -320,6 +320,16 @@
 		 itemsTabletSmall: [985,2],
 		 itemsMobile : [479,1],
 	 });
+	 $(".team-carousel-galery").owlCarousel({
+		 items : 4,
+		 itemsDesktop : [1199,2],
+		 //itemsDesktop : [1199,3],
+		 itemsDesktopSmall : [979,3],
+		 slideSpeed: 300,
+		 itemsTablet: [768,1],
+		 itemsTabletSmall: [985,2],
+		 itemsMobile : [479,1],
+	 });
  });
 
 
