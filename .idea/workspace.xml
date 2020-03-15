@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="355b20ea-9d02-4f6d-b674-d433dda4ff8c" name="Default Changelist" comment="Se agrego el scrip para mandar correo y se agregaron 2 imagenes en la vista de servicios para que no se muestre vacío.">
+    <list default="true" id="355b20ea-9d02-4f6d-b674-d433dda4ff8c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nosotros.html" beforeDir="false" afterPath="$PROJECT_DIR$/nosotros.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contacto.html" beforeDir="false" afterPath="$PROJECT_DIR$/contacto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/galeria.html" beforeDir="false" afterPath="$PROJECT_DIR$/galeria.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +44,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/imagen/servicios/maquillajexv" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -59,11 +60,11 @@
       <recent name="C:\xampp\htdocs\websites\estudioxv\imagen\banner" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\websites\estudioxv\imagen\servicios\maquillajexv" />
+      <recent name="C:\xampp\htdocs\websites\estudioxv\imagen\servicios\clasesbaile" />
       <recent name="C:\xampp\htdocs\websites\estudioxv\imagen\servicios\fotografiaYvideo" />
+      <recent name="C:\xampp\htdocs\websites\estudioxv\imagen\servicios\maquillajexv" />
       <recent name="C:\xampp\htdocs\websites\estudioxv\imagen\servicios\bodas" />
       <recent name="C:\xampp\htdocs\websites\estudioxv\imagen\servicios\coreoxv" />
-      <recent name="C:\xampp\htdocs\websites\estudioxv\imagen\servicios\Paquetes" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -112,7 +113,13 @@
       <workItem from="1581784195533" duration="7284000" />
       <workItem from="1581893989353" duration="2276000" />
       <workItem from="1581976621833" duration="5903000" />
-      <workItem from="1582067297879" duration="5460000" />
+      <workItem from="1582067297879" duration="6517000" />
+      <workItem from="1582483586719" duration="9825000" />
+      <workItem from="1582496275002" duration="1895000" />
+      <workItem from="1582755529106" duration="665000" />
+      <workItem from="1582763607525" duration="5307000" />
+      <workItem from="1583202432101" duration="602000" />
+      <workItem from="1584245174466" duration="1735000" />
     </task>
     <task id="LOCAL-00001" summary="Se corrigio el boton de reproducir video en la página principal home.">
       <created>1581552093164</created>
@@ -128,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581559517226</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Se le agrego un margint-bottom al contenedor.">
+      <created>1582072825166</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582072825166</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,17 +152,18 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Se corrigio el boton de reproducir video en la página principal home." />
     <MESSAGE value="Se agrego el scrip para mandar correo y se agregaron 2 imagenes en la vista de servicios para que no se muestre vacío." />
-    <option name="LAST_COMMIT_MESSAGE" value="Se agrego el scrip para mandar correo y se agregaron 2 imagenes en la vista de servicios para que no se muestre vacío." />
+    <MESSAGE value="Se le agrego un margint-bottom al contenedor." />
+    <option name="LAST_COMMIT_MESSAGE" value="Se le agrego un margint-bottom al contenedor." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582071599411">
+    <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582768061124">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1582071599411" />
-    <state x="166" y="0" key="CommitChangelistDialog2" timestamp="1581559516210">
+    <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1582768061124" />
+    <state x="166" y="0" key="CommitChangelistDialog2" timestamp="1582072823840">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="166" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581559516210" />
+    <state x="166" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1582072823840" />
     <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1581652040764">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -165,18 +180,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="7" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1581189094582" />
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1581559532503">
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1584246937829">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1581559532503" />
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1584246937829" />
     <state x="332" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1581189147880">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="332" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1581189147880" />
-    <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582067405142">
+    <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584245193414">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1582067405142" />
+    <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1584245193414" />
     <state x="472" y="78" key="git4idea.branch.GitSmartOperationDialog" timestamp="1582067554518">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
