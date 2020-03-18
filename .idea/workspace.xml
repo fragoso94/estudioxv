@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="355b20ea-9d02-4f6d-b674-d433dda4ff8c" name="Default Changelist" comment="Se hicieron cambios en la seccion de clases de baile, quienes somos y se agregaron nuevas imagenes al proyecto.">
-      <change afterPath="$PROJECT_DIR$/imagen/servicios/clasesbaile/ballet.jpg" afterDir="false" />
+    <list default="true" id="355b20ea-9d02-4f6d-b674-d433dda4ff8c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/imagen/servicios/clasesbaile/jazz.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ClasesDeBaile.html" beforeDir="false" afterPath="$PROJECT_DIR$/ClasesDeBaile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detalleXV.html" beforeDir="false" afterPath="$PROJECT_DIR$/detalleXV.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagen/servicios/clasesbaile/balletJazz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/luzysonido.html" beforeDir="false" afterPath="$PROJECT_DIR$/luzysonido.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +125,7 @@
       <workItem from="1584245174466" duration="1828000" />
       <workItem from="1584393708506" duration="4699000" />
       <workItem from="1584409760198" duration="175000" />
-      <workItem from="1584492700789" duration="4963000" />
+      <workItem from="1584492700789" duration="6474000" />
     </task>
     <task id="LOCAL-00001" summary="Se corrigio el boton de reproducir video en la página principal home.">
       <created>1581552093164</created>
@@ -159,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584409874233</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Subiendo..">
+      <created>1584497974254</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1584497974254</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,17 +182,18 @@
     <MESSAGE value="Se le agrego un margint-bottom al contenedor." />
     <MESSAGE value="Se cambio algunos titulos de contacto y galeria." />
     <MESSAGE value="Se hicieron cambios en la seccion de clases de baile, quienes somos y se agregaron nuevas imagenes al proyecto." />
-    <option name="LAST_COMMIT_MESSAGE" value="Se hicieron cambios en la seccion de clases de baile, quienes somos y se agregaron nuevas imagenes al proyecto." />
+    <MESSAGE value="Subiendo.." />
+    <option name="LAST_COMMIT_MESSAGE" value="Subiendo.." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582768061124">
+    <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584498113698">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1582768061124" />
-    <state x="166" y="0" key="CommitChangelistDialog2" timestamp="1584409889477">
+    <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1584498113698" />
+    <state x="166" y="0" key="CommitChangelistDialog2" timestamp="1584497973347">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="166" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584409889477" />
+    <state x="166" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584497973347" />
     <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1581652040764">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -199,10 +210,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="7" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1581189094582" />
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1584409899023">
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1584497982136">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1584409899023" />
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1584497982136" />
     <state x="332" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1581189147880">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
